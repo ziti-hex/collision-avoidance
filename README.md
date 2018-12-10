@@ -1,5 +1,5 @@
 # Offboard-Controll
-Hier wird die Methodik zur implementierung eigner Steuerung der UAV bereitgestellt. Hier befinden sich Beispiele wie man z.B. die Geschwindigkeit vorgeben kann. Es wird auch erläutert wie das Technisch umgesetzt wird.
+Hier wird die Methodik zur implementierung eigner Steuerung der UAV bereitgestellt. Hier befinden sich Beispiele wie man z.B. die Geschwindigkeit vorgeben kann. Es wird auch erläutert wie es technisch umgesetzt wird.
 ## Steuerung mit RPi
 TODO
 ### Vorraussetzungen
