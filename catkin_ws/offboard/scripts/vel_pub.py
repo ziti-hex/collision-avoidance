@@ -10,17 +10,18 @@ def talker_vel():
 	pub = rospy.Publisher('/mavros/setpoint_velocity/cmd_vel_unstamped', Twist, queue_size=10)
 	rospy.init_node('talker_vel', anonymous=True)
 	rate = rospy.Rate(10) # 10hz
-	
+	tw = Twist()
+	lin = Vec()
+	ang = Vec()
+	i=0
 	while not rospy.is_shutdown():
-		tw = Twist()
-		lin = Vec()
-		ang = Vec()
-		lin.x = 0
-		lin.y = 0
-		lin.z = 0
-		ang.x = 0
-		ang.y = 0
-		ang.z = 0
+		i = i+1
+		lin.x = i
+		lin.y = i
+		lin.z = i
+		ang.x = i
+		ang.y = i
+		ang.z = i
 		
 		
 		tw.linear = lin
